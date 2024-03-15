@@ -1,3 +1,5 @@
+import C2A from "../reusables/C2A";
+
 export default function Intro() {
   return (
     <div className="text-white text-center md:text-left">
@@ -7,14 +9,7 @@ export default function Intro() {
       <p className="text-pretty my-5">
         Fast, easy & unlimited confrence call service
       </p>
-      <div className="flexCenter gap-x-4 md:justify-start">
-        <button className="rounded py-2 px-4 text-primary bg-white">
-          Try it free
-        </button>
-        <button className="rounded py-2 px-4 bg-primary text-white border-white border">
-          Get a Demo
-        </button>
-      </div>
+      <C2A />
     </div>
   );
 }
