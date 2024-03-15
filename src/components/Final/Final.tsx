@@ -1,5 +1,4 @@
 import { Star } from "lucide-react";
-import C2A from "../reusables/C2A";
 
 export default function Final() {
   return (
