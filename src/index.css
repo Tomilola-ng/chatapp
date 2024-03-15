@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 @layer utilities {
   .link_item {
     @apply transition-all hover:md:underline underline-offset-[7px] text-sm decoration-primary text-white md:text-neutral-700 capitalize px-3 py-1 hover:md:rounded-full border-b-2 border-yellow-50 md:border-0;
   }
   .max-container {
-    @apply mx-auto max-w-[1200px];
+    @apply mx-auto max-w-screen-lg;
   }
   .button {
     @apply rounded-full px-6 py-1 hover:brightness-105 hover:underline underline-offset-2 transition-all;
@@ -33,11 +37,11 @@
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2caa6d;
+  background: #5e50ff;
   border-radius: 50rem;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #2caa6d;
+  background: #5e50ff;
 }
 
 .hide-scrollbar::-webkit-scrollbar {
